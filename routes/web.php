@@ -23,3 +23,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/test', function(){
 	return "Hello world";
 });
+
+Route::get('/hello-c9', function(){
+    return 'Hello C9'; 
+});
